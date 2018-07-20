@@ -1,0 +1,10 @@
+<resources>
+    <style name="FabDialog">
+        <item name="fabBackgroundColor">?attr/colorAccent</item>
+        <item name="dialogBackgroundColor">?attr/colorBackgroundFloating</item>
+        <item name="dialogCornerRadius">@dimen/dialog_corner_radius</item>
+        <item name="dimBackgroundEnabled">true</item>
+        <item name="dimBackgroundColor">@color/dimBackgroundColor</item>
+        <item name="closeOnTouchOutside">true</item>
+    </style>
+</resources>

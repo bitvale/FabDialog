@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FabDialog</string>
+    <string name="btn_positive">Accept</string>
+    <string name="btn_negative">Cancel</string>
+</resources>

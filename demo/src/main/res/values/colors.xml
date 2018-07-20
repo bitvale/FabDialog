@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4a525a</color>
+    <color name="colorPrimaryDark">#3b4147</color>
+    <color name="colorAccent">#7585f2</color>
+    <color name="fabColor">#5768de</color>
+    <color name="dialogColor">#4a525a</color>
+    <color name="filterFabColor">#df3d54</color>
+
+    <array name="colors">
+        <item name="kotlin">#827f93</item>
+        <item name="android">#20bf55</item>
+        <item name="python">#3b9aee</item>
+        <item name="c++">#f4a261</item>
+        <item name="javascript">#1ed2bb</item>
+        <item name="html">#778da9</item>
+        <item name="php">#c467f4</item>
+        <item name="c#">#9bc53d</item>
+        <item name="ruby">#9f9fed</item>
+        <item name="swift">#fc6177</item>
+        <item name="java">#bcbcbc</item>
+    </array>
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="fab_padding">16dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+
+    <dimen name="elevation">8dp</dimen>
+
+    <dimen name="dialog_max_width">356dp</dimen>
+    <dimen name="dialog_vertical_margin">52dp</dimen>
+    <dimen name="dialog_horizontal_margin">28dp</dimen>
+
+    <dimen name="dialog_padding">24dp</dimen>
+    <dimen name="dialog_content_padding">8dp</dimen>
+
+    <dimen name="dialog_title_margin_bottom">12dp</dimen>
+    <dimen name="dialog_buttons_margin">12dp</dimen>
+    <dimen name="dialog_buttons_top_margin">8dp</dimen>
+
+    <dimen name="dialog_icon_size">32dp</dimen>
+    <dimen name="dialog_corner_radius">8dp</dimen>
+</resources>

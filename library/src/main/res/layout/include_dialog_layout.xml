@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dialog_padding"
+        android:paddingTop="@dimen/dialog_padding"
+        android:paddingRight="@dimen/dialog_padding"
+        android:paddingBottom="@dimen/dialog_title_margin_bottom"
+        app:layout_constraintBottom_toTopOf="@+id/sv_msg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <ImageView
+            android:id="@+id/img_icon"
+            style="@style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon"
+            android:layout_width="@dimen/dialog_icon_size"
+            android:layout_height="@dimen/dialog_icon_size"
+            android:layout_marginEnd="16dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            style="?android:attr/windowTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            tools:text="@tools:sample/lorem" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/dialog_content_padding"
+        android:paddingBottom="@dimen/dialog_content_padding">
+
+        <TextView
+            android:id="@+id/tv_dialog_msg"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dialog_padding"
+            android:paddingRight="@dimen/dialog_padding"
+            tools:text="@tools:sample/lorem/random" />
+
+    </ScrollView>
+
+    <FrameLayout android:id="@+id/custom_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/dialog_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dialog_buttons_top_margin"
+        android:paddingEnd="@dimen/dialog_buttons_margin"
+        android:paddingBottom="@dimen/dialog_buttons_margin">
+
+        <Button
+            android:id="@+id/btn_negative"
+            style="?attr/buttonBarNegativeButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_negative" />
+
+        <Button
+            android:id="@+id/btn_positive"
+            style="?attr/buttonBarPositiveButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_positive" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

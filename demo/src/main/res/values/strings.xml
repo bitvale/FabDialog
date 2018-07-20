@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FabDialog</string>
+
+    <string name="questions">%d questions</string>
+
+    <string name="dialog_title">Hi! I am a FabDialog!</string>
+    <string name="filter_dialog_title">Apply filter</string>
+    <string name="dialog_message">Tap OK and try to reopen me again.</string>
+    <string name="positive_btn">OK</string>
+    <string name="negative_btn">Cancel</string>
+    <string name="sb_description">Select number of questions</string>
+</resources>

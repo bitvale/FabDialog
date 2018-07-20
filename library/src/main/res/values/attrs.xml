@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FabDialog">
+        <attr name="fabIcon" format="reference"/>
+        <attr name="dialogCornerRadius" format="dimension"/>
+        <attr name="dialogBackgroundColor" format="color"/>
+        <attr name="fabBackgroundColor" format="color"/>
+        <attr name="dimBackgroundColor" format="color"/>
+        <attr name="dimBackgroundEnabled" format="boolean"/>
+        <attr name="closeOnTouchOutside" format="boolean"/>
+    </declare-styleable>
+</resources>

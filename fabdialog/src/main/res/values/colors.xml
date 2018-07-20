@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDark1">#6700574b</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="fabBackground">#1caa49</color>
+    <color name="dialogBackground">#238a9c</color>
+    <color name="dimBackgroundColor">#99000000</color>
+</resources>
