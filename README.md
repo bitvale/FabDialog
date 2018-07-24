@@ -16,7 +16,7 @@ Just add FabDialog view in your layout XML and FabDialog library in your project
 
 ```gradle
 dependencies {
-  implementation 'com.bitvale:fabdialog:1.0.0'
+  implementation 'com.bitvale:fabdialog:1.0.1'
 }
 ```
 
